@@ -1,0 +1,29 @@
+/* width */
+/* ::-webkit-scrollbar {
+  width: 12px;
+} */
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #205403, #e17200);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(180deg, #e17200, #205403);
+}
+
+html {
+
+  /* overflow: -moz-scrollbars-vertical; */
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+}

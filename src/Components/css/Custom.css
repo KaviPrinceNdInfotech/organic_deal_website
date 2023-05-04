@@ -1,0 +1,9 @@
+.modal-backdrop.show{
+    opacity: none;
+}
+
+@media only screen and (max-width: 600px) {
+   .crouselPosition{
+    margin-top: 100px;
+   }
+  }
